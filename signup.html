@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/signup.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="assets/js/signup.js"></script>
+    <title>Signup</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="signup">
+            Sign Up
+        </h1>
+        <form class="form" id = "form">
+            <input type="text" class="nama" id="nama" placeholder = "Masukkan nama" name="nama" required><br>
+            <input type="text" class="username" id= "username" placeholder = "Masukkan username" name="username" required><br>
+            <input type="tel" class="nomorHp" id="nomorHp" placeholder = "Masukkan nomor HP" name="nomorHp" required><br>
+            <input type="email" class="email" id="email" placeholder = "Masukkan email" name="email" required><br>
+            <input type="password" class="password1" id="password1" placeholder = "Masukkan sandi" name="password1" required>
+            <span id="tooglePassword1" onclick="hideShowPassword1()">
+                <img id = "show1" src="assets/images/SignUp/ShowPasswordIcon.svg" alt="" hidden>
+                <img id = "hide1" src="assets/images/SignUp/HidePasswordIcon.svg" alt="">
+            </span>
+            <input type="password" class="password2" id="password2" placeholder="Masukkan sandi lagi" name="password2" required> 
+            <span id="tooglePassword2" onclick="hideShowPassword2()">
+                <img id = "show2" src="assets/images/SignUp/ShowPasswordIcon.svg" alt="" hidden>
+                <img id = "hide2" src="assets/images/SignUp/HidePasswordIcon.svg" alt="">
+            </span>
+
+        </form>
+        <button id="signup-btn" onclick="validateForm()">
+            BUAT AKUN
+            <img src="/assets/images/Homepage/ArrowRight.svg" alt="">
+        </button>
+        <span>
+            Sudah memiliki akun?  <a href="login.html">Log In</a>
+        </span>
+    </div>
+</body>
+</html>

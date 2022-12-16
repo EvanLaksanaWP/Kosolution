@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/layanan.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Layanan</title>
+</head>
+<body>
+<div class="container1" id="container1">
+<nav class="topnav">
+    <div class="logo">
+        <img class="logo-image" src="assets/images/homepage/MiniLogo.svg" alt="">
+        <p class="kosolution">Kosolution</p>
+    </div>
+    <div class="wrapperSearchBar">
+        <img class="homeSearch" src="assets/images/Layanan/homeSearchIcon.svg" alt="">
+        <input type="text" name="search" id="searchBar">
+        <img src="assets/images/Layanan/closeCircleIcon.svg" alt="" class="closeIcon">
+    </div>
+    <a class="profile" href="profile.html">
+        <img src="assets/images/SignUp/UsernameIcon.svg" alt="">
+        <div class="username">
+            evan.lwp
+        </div>
+    </a>
+</nav>
+<div class="layananPesanAntar">
+    LAYANAN PESAN ANTAR
+</div>
+<div class="navLayanan">
+    <ul id="container-btn">
+        <li class = "activeNav">
+            SEMUA LAYANAN
+        </li>
+        <li>
+            GAS
+        </li>
+        <li>
+            GALON
+        </li>
+        <li>
+            LAUNDRY
+        </li>
+        <li>
+            PERCETAKAN
+        </li>
+    </ul>
+</div>
+<div class="indicator">
+</div>
+<div class="mainContainer" id="mainContainer">
+    <section class="activeTab" class="semuaLayanan">
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+    </section>
+
+    <section class = "sectionContainer" class = "gas">
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Gas/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Gas/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">LPG BAROKAH</p>
+                    <p class="alamat">JL JENDERAL SUDIRMAN 14</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GAS</p>
+            </div>
+            <button class="selengkapnya-btnGas" onclick="toDetailGas()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+        
+    </section>
+
+
+
+    <section class = "sectionContainer" class="galon">
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Galon/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Galon/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">SigurFresh</p>
+                    <p class="alamat">JL. SIGURA-GURA 17</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">GALON</p>
+            </div>
+            <button class="selengkapnya-btnGalon" onclick="toDetailGalon()">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+    </section>
+
+
+
+    <section class = "sectionContainer" class="laundry">
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Laundry/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Laundry/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">DR.LAUNDRY</p>
+                    <p class="alamat">JL. MERDEKA 50</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">LAUNDRY</p>
+            </div>
+            <button class="selengkapnya-btnLaundry">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+    </section>
+
+
+
+    <section class = "sectionContainer">
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="merchantPic" src="assets/images/Layanan/Percetakan/1.svg" alt="">
+            <div class="detailMerchant">
+                <img class = "profilePic" src="assets/images/Layanan/Percetakan/ProfilePic/1.svg" alt="">
+                <div class="namaAlamat">
+                    <p class = "nama">KODIR PRINTING</p>
+                    <p class="alamat">JL. DIPONEGORO 19</p>
+                </div>
+            </div>
+            <div class="category">
+                <img src="assets/images/Layanan/crown.svg" alt="">
+                <p class="categoryName">PERCETAKAN</p>
+            </div>
+            <button class="selengkapnya-btnPercetakan">
+                <img src="assets/images/Layanan/creditCardIcon.svg" alt="">
+                <p>SELENGKAPNYA</p>
+            </button>
+        </div>
+    </section>
+</div>
+<script src="assets/js/layanan.js"></script>
+</body>
+</html>

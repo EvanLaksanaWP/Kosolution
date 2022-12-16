@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container1">
+        <nav class="topnav">
+            <div class="logo">
+                <img class="logo-image" src="assets/images/homepage/MiniLogo.svg" alt="">
+                <p class="kosolution">Kosolution</p>
+            </div>
+            <ul>
+                <li><a href="homepage.html#container1">BERANDA</a></li>
+                <li><a href="homepage.html#container3">LAYANAN</a></li>
+                <li><a href="homepage.html#container5">KONTAK</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container2">
+        <div class="leftContainer2">
+            <div class="profilePicWrapper">
+                <img class = "profilePic" src="assets/images/Homepage/Evan.svg" alt="">
+                <a href="" onclick="alert('Tombol ini digunakan untuk merubah foto profil')">
+                    <img class = "changePicIcon" src="assets/images/Profile/ChangePhotoIcon.svg" alt="">
+                </a>
+            </div>
+            <p class="nama">Evan Laksana Wira Pratama</p>
+            <p class = "username">evan.lwp</p>
+            <button class="logout-btn" id="logout-btn"  onclick="loggingOut()">
+                Log Out
+                <img src="assets/images/Homepage/ArrowRight.svg" alt="">
+            </button>
+        </div>
+        <div class="rightContainer2">
+            <h1 class="profile">
+                PROFIL
+            </h1>
+            <form id="form">
+                <p class="nama-label">Nama</p>
+                <input type="text" class="nama" id="nama" placeholder = "Masukkan nama" name="nama" value="Evan Laksana Wira Pratama" readonly required> 
+                <a class="ubah" id = "ubah" onclick="setReadOnly('nama')">Ubah</a>
+                <p class="username-label">Username</p>
+                <input type="text" class="username" id= "username" placeholder = "Masukkan username" name="username" value="evan.lwp"readonly required> 
+                <a class="ubah" id = "ubah" onclick="setReadOnly('username')">Ubah</a>
+                <p class="nomorHp-label">Nomor Hp</p>
+                <input type="tel" class="nomorHp" id="nomorHp" placeholder = "Masukkan nomor HP" name="nomorHp" value="215150200111043" readonly required> 
+                <a class="ubah" id = "ubah" onclick="setReadOnly('nomorHp')">Ubah</a>
+                <p class="email-label">Email</p>
+                <input type="email"  class="email" id="email" placeholder = "Masukkan email" name="email" value = "evan_laksana_wp@student.ub.ac.id" readonly required> 
+                <a class="ubah" id = "ubah" onclick="setReadOnly('email')">Ubah</a>
+                <p class"password-label">Password</p>
+                <input type="password" class="password" id="password" placeholder = "Masukkan sandi" name="password1" value = "12345678" readonly required> 
+                <a class="ubah" id = "ubah" onclick="setReadOnly('password')">Ubah</a>
+            </form>
+            <button class="simpanPerubahan" onclick="saveData()">
+                SIMPAN PERUBAHAN
+                <img src="assets/images/Profile/CheckMarkIcon.svg" alt="">
+            </button>
+        </div>
+    </div>
+    <script src="assets/js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,307 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+body{
+    background-image: url(../images/homepage/BackgroundTop.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'Poppins';
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.topnav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 700px;
+}
+
+.topnav ul li a{
+    margin: 0 25px;
+    font-size: 18px;
+    color: white;
+}
+
+.topnav .profile{
+    display: flex;
+    align-content: center;
+    color: white;
+}
+
+.topnav .profile img{
+    margin-right: 7px;
+}
+
+.topnav .profile div{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo .kosolution{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.container2{
+    display: table;
+    width: 400px;
+    position: relative;
+    margin-top: 250px;
+    margin-left: 90px;
+}
+
+.container2 .kosolution {
+    font-weight:bolder;
+    font-size: 52px;
+    color:#0071B8;
+}
+
+.container2 .tagline{
+    font-weight: bold;
+    color: #00A1BA;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.container2  #lihatLayanan-btn{
+    border: 0;
+    padding: 8px 25px;
+    margin-right: 50px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: -5px;  
+    display: flex;
+    align-items: center;
+    background-color: #9BCC22;
+}
+
+.container2 #lihatLayanan-btn img{
+    margin-left: 15px;
+}
+
+.container3{
+    /* background-color: antiquewhite; */
+    margin-top: 300px;
+    text-align: center;
+    font-weight:bolder;
+    color:#3B3EA1;
+}
+
+.container3 .produkLayanan{
+    /* background-color: #9BCC22; */
+    display: flex;
+    margin-top: 60px ;
+    margin-right: 100px; 
+    margin-left: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container3 section{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    box-shadow:
+    0px 0px 10px rgba(0, 0, 0, 0.14),
+    0px 0px 80px rgba(0, 0, 0, 0.28);
+}
+
+.container3 .aboutProduk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px ;
+}
+
+.container3 .aboutProduk .judulProduk{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container3 .aboutProduk .detailProduk{
+    text-align: justify;
+    margin-bottom: 10px;
+    color:#00A1BA;
+}
+
+.container3 .aboutProduk #pesan-btn{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    padding: 15px;
+    background: linear-gradient(90deg, #749919 0%, #009EB6 120.3%);
+    border: 0;
+    border-radius: 50%;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container3 section .logoProduk{
+    width: 300px;
+    height: 150px;
+}
+
+.container4 {
+    margin-top: 200px
+}
+
+.container4 .aboutUs{
+    font-weight: bolder;
+    color:#3B3EA1;
+}
+
+.container4 .aboutUs{
+    text-align: center;
+}
+
+.container4 .anggotaTim{
+    display: flex;
+    margin-top: 60px;
+    margin-right: 100px; 
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.container4 section{
+    background-color: #00A1BA;
+    margin: 10px;
+    width: 310px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 20%;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    box-shadow:
+        0px 0px 10px rgba(0, 0, 0, 0.14),
+        0px 0px 80px rgba(0, 0, 0, 0.28);
+}
+
+.container4 section div{
+    width: 280px;
+    height: 88px;
+    background: rgba(255, 255, 255, 0.96);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container4 section img{
+    width: 200px;
+    background-color: white;
+    border-radius: 30px;
+}   
+
+.container4 section .nama{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.container4 section .role{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.container5{
+    background: linear-gradient(91.72deg, #00BFDC 19.22%, #77C852 98.9%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 150px;
+}
+
+.container5 .wrapperLogo{
+    background: rgba(255, 250, 250, 0.29);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.container5 .logo{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.container5 .logo img{
+    margin-right: 10px;
+}
+
+.container5 ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container5 ul li {
+    margin-inline: 20px;
+}
+
+.container5 ul img{
+    width: 35px;
+}
+
+.container5 ul .twitter{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+

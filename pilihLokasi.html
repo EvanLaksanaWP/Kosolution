@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/pilihLokasi.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>PilihLokasi</title>
+</head>
+<body>
+    <div class="container1">
+        <nav class="topnav">
+            <div class="logo">
+                <img class="logo-image" src="assets/images/homepage/MiniLogo.svg" alt="">
+                <p class="kosolution">Kosolution</p>
+            </div>
+            <ul>
+                <li><a href="homepage.html#container1">BERANDA</a></li>
+                <li><a href="homepage.html#container3">LAYANAN</a></li>
+                <li><a href="homepage.html#container5">KONTAK</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="judul">
+        TEMUKAN SEMUA LAYANAN DI SEKITAR ANDA
+    </div>
+    <div class="mainContainer">
+        <div class="leftContainer">
+            <div class="provinsiLabel">
+                <p>
+                    Provinsi
+                </p>
+                <div class="select">
+                    <select>
+                        <option value="0">Pilih Provinsi Anda sekarang!</option>
+                        <option value="1">Jawa Timur</option>
+                    </select>
+                </div>
+            </div>
+            <div class="kotaLabel">
+                <p>
+                    Kota
+                </p>
+                <div class="select">
+                    <select>
+                        <option value="0">Pilih Kota Anda sekarang!</option>
+                        <option value="1">Kota Malang</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="kecamatanLabel">
+                <p>
+                    Kecamatan
+                </p>
+                <div class="select">
+                    <select>
+                        <option value="0">Pilih Kecamatan Anda sekarang!</option>
+                        <option value="1">Lowokwaru</option>
+                        <option value="2">Sukun</option>
+                        <option value="3">Blimbing</option>
+                    </select>
+                </div>
+            </div>
+            <button class="simpanPerubahan" onclick="toLayanan()">
+                SIMPAN PERUBAHAN
+                <img src="assets/images/Profile/CheckMarkIcon.svg" alt="">
+            </button>
+        </div>
+        <div class="rightContainer">
+            <img src="assets/images/PilihLokasi/RightImage.svg" alt="">
+        </div>
+    </div>
+    <script src="assets/js/pilihLokasi.js"></script>
+</body>
+</html>

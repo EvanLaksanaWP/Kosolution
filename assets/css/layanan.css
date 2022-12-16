@@ -1,0 +1,206 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins'
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo .kosolution{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.topnav .profile{
+    display: flex;
+    align-content: center;
+    color: #0071B8;
+}
+
+.topnav .profile img{
+    margin-right: 7px;
+}
+
+.topnav .profile div{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.wrapperSearchBar .homeSearch{
+    position: absolute;
+    top: 26px;
+}
+
+.wrapperSearchBar input{
+    width: 880px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+    font-weight: bold;
+    border: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.wrapperSearchBar .closeIcon{
+    position: absolute;
+    top: 30px;
+    right: 315px;
+}
+
+.layananPesanAntar{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #0071B8;
+    margin-top: 10px;
+}
+
+.navLayanan{
+    display: flex;
+    margin-top: 30px;
+}
+
+.navLayanan ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #D9D9D9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navLayanan ul li{
+    width: calc(100%/4);
+    text-align: center;
+    font-weight: bold;
+    color:black ;
+    outline: none;
+    cursor: pointer;
+}
+
+.navLayanan ul >li.activeNav{
+    color: #0071B8;
+}
+
+.indicator{
+    position: relative;
+    width: calc(100%/4);
+    height: 7px;
+    background-color:#0071B8;
+    border-radius: 5px;
+    transition: all 500ms ease-in-out;
+}
+.mainContainer >section{
+    position: absolute; 
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 500ms ease-in-out 0ms,
+        transform 500ms ease-in-out 0ms;
+}
+
+.mainContainer >section.activeTab{
+    z-index: 1000;
+    opacity: 1;
+    transform: scale(1);    
+}
+
+.mainContainer .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 470px;
+    background: #F2F3F2;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.mainContainer .card .merchantPic{
+    width: 250px;
+    border-radius: 30px;
+}
+
+.mainContainer .card .detailMerchant{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-self: start;
+}
+
+.mainContainer .card .detailMerchant .profilePic{
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.mainContainer .card .detailMerchant .nama{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.mainContainer .card .detailMerchant .alamat{
+    color: rgba(23, 23, 23, 1);
+    font-size: 14px;
+}
+
+.mainContainer .card .category{
+    display: flex;
+    margin-top: 20px;
+}
+
+.mainContainer .card .category .categoryName{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.mainContainer .card button{
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 250px;
+    height: 56px;
+    border-radius: 50px;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(90deg, #749919 0%, #009EB6 120.3%);
+    border: 0px;
+    color: white;
+    font-weight: bolder;
+}
+
+.mainContainer .card button img{
+    margin-right: 10px;
+}

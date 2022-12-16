@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins';
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+select {
+    /* Personalize */
+    flex: 1;
+    padding: 0 0.5em;
+    font-size: 18px;
+    /* color: #fff; */
+    /* background-color: var(--darkgray); */
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 35px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    font-family: 'Poppins';
+}
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+/* Custom Select wrapper */
+.select {
+    position: relative;
+    display: flex;
+    width: 22em;
+    height: 3em;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #3faef3;
+    transition: .25s all ease;
+    pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+    color: white;
+}
+
+option{
+    font-size: 18px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.container1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container1 .topnav{
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    height:30px;
+    margin-top: 25px;
+    width: auto;
+}
+
+.topnav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav ul li a{
+    margin: 0 25px;
+    font-size: 16px;
+    color: #0071B8;
+    font-weight: bold;
+}  
+
+.topnav .logo{
+    display: flex;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.topnav .logo img{
+    margin-right: 10px;
+}
+
+.judul{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0071B8;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainContainer .leftContainer{
+    width: 585px;
+    height: 530px;
+    margin: 20px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.provinsiLabel, .kotaLabel, .kecamatanLabel{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.simpanPerubahan{
+    margin-top: 40px;
+    display: flex;
+    background: linear-gradient(90deg, #749919 0%, #009EB6 120.3%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 270px;
+    height: 55px;
+    border: 0;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFAFA;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;          
+    align-self: center;
+}
+
+
